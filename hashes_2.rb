@@ -8,7 +8,9 @@ states = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each state name and abbreviation
-#
+states.each do |state, abb|
+  puts "It's fun to shorten #{state} to #{abb}."
+end 
 #
 #
 
@@ -24,7 +26,9 @@ birthdays = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each friends name and birthday
-#
+birthdays.each do |name, day|
+  puts "My friend, #{name},  was born on #{day}."
+end 
 #
 #
 
@@ -40,6 +44,8 @@ login_statuses = {
 }
 
 # Use the each method to iterate through it and print ONLY the names of friends who are "logged in"
-#
-#
+login_statuses.each do |name, boolean|
+  puts name if boolean == true
+end 
+
 #

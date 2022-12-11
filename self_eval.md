@@ -1,9 +1,8 @@
 # Self Evaluation
 
 1.  What did you struggle with in this section? 
-- Grapes. For sure for sure. I crossed from productive into unproductive struggle while trying to print a `value` based on the index position of the `key` in the first hashes document. I kept getting `nil` as the return value.
-But I don't think indexes work the same. But `.fetch` was easy.
+- Grapes. For sure for sure. I crossed from productive into unproductive struggle while trying to print a `value` based on the index position of the `key` in the first hashes document. I kept getting `nil` as the return value. Woof. But `.fetch` was easy.
 2. How is note-taking going? What are you finding helpful? When do you find yourself taking the most helpful notes?
 - Oh, I don't take notes much on class materials. Sometimes I start to, but it has to be really important info that I can't review anywhere else before I risk taking notes. I tried so earnestly to take notes for years, but they're often incomplete, and I have a hard time keeping up in class if I do. I might try harder if they made my learning remotely easier after the fact, but I find that if I review them, they don't provide as much value as the effort I expend to create them. If I just solve a rubix cube or knit while I follow along with the source material during lectures, or try things out on my own when I'm doing self-directed learning, I remember the material better and achieve fluency sooner and more reliably than if I try to take notes.
-- What do you lean into - Googling, or trying to solve a problem in code on your own first?
-I leaned into trying to solve a problem in code on my own first. Then when I google something, I understand better what bits solve the issues I've run into, and I can better judge what is and isn't an appropriate or valuable solution. It's like I've opened the places of struggle that need to be filled so I'm ready to hold onto the filler like a steel trap. 
+3.  What do you lean into - Googling, or trying to solve a problem in code on your own first?
+- I leaned into trying to solve a problem in code on my own first. Then when I google something, I understand better what bits solve the issues I've run into, and I can better judge what is and isn't an appropriate or valuable solution. It's like I've opened the places of struggle that need to be filled so I'm ready to hold onto the filler like a steel trap. 

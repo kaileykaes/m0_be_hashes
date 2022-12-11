@@ -1,29 +1,40 @@
 
-Activity:
+#Activity:
 
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your Terminal: 
 # `ruby hashes_1.rb`
 
-foods = {"apples": 23, "grapes": 507, "eggs": 48}
-p zoo
+foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48
+}
+
 
 # Write code that prints all of the 'keys' of the foods variable 
 # you created above:
-# YOUR CODE HERE
+p foods.keys
 
 # Write code that prints all of the 'values' of the foods variable 
 # you created above:
-# YOUR CODE HERE
+
+p foods.values
 
 # Write code that prints the value of the second food of the foods variable 
 # you created above:
-# YOUR CODE HERE
+
+p foods.fetch(:grapes)
+
+
 
 # Write code that adds a food to the foods hash. 
+foods.store('durian', 1)
+foods[coconuts: 17]
+
 # Then, print the updated hash:
-# YOUR CODE HERE
+p foods
 
 
 #-------------------
@@ -38,15 +49,23 @@ p zoo
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 # Write code that prints your email hash to the terminal.
-
+email_stuff = {
+  recipient: 'Harold@net.net', 
+  sender: 'kookaburra@net.net',
+  subject: 'Happy Sunday',
+  greeting: 'Dear Harold,',
+  body: "I hope your Sunday's great!",
+  salutation: 'The end, Kookaburra'
+}
 
 # Write code that prints all of the 'keys' of the email hash 
 # you created above:
-# YOUR CODE HERE
+
+p email_stuff.keys
 
 # Write code that prints all of the 'values' of the email hash 
 # you created above:
-# YOUR CODE HERE
+p email_stuff.values
 
 
 #-------------------
@@ -97,3 +116,30 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails = [ 
+  {
+  recipient: 'Harold@net.net', 
+  sender: 'kookaburra@net.net',
+  subject: 'Happy Sunday',
+  greeting: 'Dear Harold,',
+  body: "I hope your Sunday's great!",
+  salutation: 'The end, Kookaburra'
+  },
+  {
+  recipient: 'Fizz@buzz.edu', 
+  sender: 'solomonov@foobar.net',
+  subject: 'Happy Monday',
+  greeting: 'Dear Fizzy,',
+  body: "I hope your Monday's great!",
+  salutation: "I'm done now, Soldog" 
+  },
+  {recipient: 'foobar@foobar.bar', 
+  sender: 'named@place.com',
+  subject: 'Happy Tuesday',
+  greeting: 'Dear Barf,',
+  body: "I hope your Tuesday's great!",
+  salutation: 'Sincere regards, Farsad'
+  }
+]
+puts emails
